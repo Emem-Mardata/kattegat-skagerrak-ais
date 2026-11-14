@@ -100,6 +100,4 @@ The IHO shapefile itself is not redistributed here.
 
 Analysis and cartography: Emem Archibong Ekong, November 2026.
 
-AI assistance was used during this work and is declared in full in the workflow
-document's "AI use and checks" section, including the errors it introduced and
-what caught them. 
+AI assistance was used during this work, including in drafting this README, and is declared in full in the workflow document’s “AI use and checks” section, including the errors it introduced and what caught them. 
