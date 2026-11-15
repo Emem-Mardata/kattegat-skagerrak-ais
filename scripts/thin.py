@@ -1,7 +1,9 @@
+import os
+BASE = os.environ.get("AIS_BASE", r"C:/GIS/Data/AIS")
 import csv
 days = ["2026-10-05", "2026-10-06", "2026-10-07", "2026-10-08", "2026-10-09", "2026-10-10", "2026-10-11"]
 for day in days: 
-    with open("C:/GIS/Data/AIS/processed/aisdk-" + day + "_box.csv", "r") as myfile, open("C:/GIS/Data/AIS/processed/aisdk-" + day + "_thin3.csv", "w", newline="") as outfile:
+    with open(os.path.join(BASE, "processed", "aisdk-" + day + "_box.csv"), "r") as myfile, open(os.path.join(BASE, "processed", "aisdk-" + day + "_thin3.csv"), "w", newline="") as outfile:
                 reader = csv.reader(myfile)
                 writer = csv.writer(outfile)
                 headings = next(reader)
