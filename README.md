@@ -12,8 +12,9 @@ Built from 117,612,138 rows of open AIS data.
 
 - **116,262.1 vessel-hours** of AIS-reported presence inside the IHO limits of the
   two seas that week.
-- **16,933.5 of them — 14.56% — inside Natura 2000 sites.** 111 of the 221 sites
-  in the two seas carried vessel traffic; 110 carried none.
+- **16,933.5 of them — 14.56% — inside Natura 2000 sites.** 856 sites intersect
+  the study grid; 111 carried vessel traffic that week, and 745 carried none,
+  most of them terrestrial sites caught by the rectangular study extent.
 - Cargo is the largest category inside protected areas (26.85% of the hours),
   ahead of fishing (13.04%) and recreational traffic (24.08% for pleasure and
   sailing combined).
@@ -78,8 +79,7 @@ Other sources used:
    build the closure zones from `data/zones_785_clean.csv` with `schema.ini`
    alongside it.
 
-The full method, every check that was run, and the limitations are in the
-workflow document.
+The full method, every check that was run, and the limitations are in the workflow document: [kattegat-skagerrak-ais-workflow-v1.0.pdf](kattegat-skagerrak-ais-workflow-v1.0.pdf).
 
 ## Licensing
 
@@ -100,4 +100,4 @@ The IHO shapefile itself is not redistributed here.
 
 Analysis and cartography: Emem Archibong Ekong, November 2026.
 
-AI assistance was used during this work, including in drafting this README, and is declared in full in the workflow document’s “AI use and checks” section, including the errors it introduced and what caught them. 
+AI assistance was used during this work, including in drafting this README, and is declared in full in the workflow document's "AI use and checks" section, including the errors it introduced and what caught them.
