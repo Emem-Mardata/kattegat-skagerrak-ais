@@ -12,9 +12,10 @@ Built from 117,612,138 rows of open AIS data.
 
 - **116,262.1 vessel-hours** of AIS-reported presence inside the IHO limits of the
   two seas that week.
-- **16,933.5 of them — 14.56% — inside Natura 2000 sites.** 856 sites intersect
-  the study grid; 111 carried vessel traffic that week, and 745 carried none,
-  most of them terrestrial sites caught by the rectangular study extent.
+- **16,933.5 of them — 14.56% — inside Natura 2000 sites.** Of the 221 sites
+  that lie in or touch the two seas, 111 carried vessel traffic that week and
+  110 carried none. A further 635 sites inside the rectangular study extent lie
+  outside the two seas and were not measured.
 - Cargo is the largest category inside protected areas (26.85% of the hours),
   ahead of fishing (13.04%) and recreational traffic (24.08% for pleasure and
   sailing combined).
@@ -81,6 +82,8 @@ Other sources used:
 
 The full method, every check that was run, and the limitations are in the workflow document: [kattegat-skagerrak-ais-workflow-v1.0.pdf](kattegat-skagerrak-ais-workflow-v1.0.pdf).
 
+Current version: v1.0.1 (16 Nov 2026). It corrects the Natura 2000 site-count wording and adds the 14 Nov script rewrite to the "AI use and checks" section; no result changed. The full change log is in section 11 of the document.
+
 ## Licensing
 
 - **Code** in `scripts/` — MIT, see `LICENSE`.
@@ -100,4 +103,4 @@ The IHO shapefile itself is not redistributed here.
 
 Analysis and cartography: Emem Archibong Ekong, November 2026.
 
-AI assistance was used during this work, including in drafting this README, and is declared in full in the workflow document's "AI use and checks" section, including the errors it introduced and what caught them.
+AI assistance was used during this work, including in drafting this README, in rewriting the three scripts for release on 14 Nov 2026, and in checking the workflow document before publication. It is declared in full in the workflow document's "AI use and checks" section, including the errors it introduced and what caught them.
